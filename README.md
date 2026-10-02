@@ -252,5 +252,41 @@ SELECT * FROM library;
 ```
 
 
+### Sign Out & Session Verification
+
+When a user clicks **Sign Out**, the current login session is removed.  
+The user account and saved library items are **not deleted** from the database.
+
+```sql
+SELECT * FROM user_sessions;
+```
+
+The user account and library data remain in the database; only the active session is removed.
+
+
+## Project Status
+
+TechCircle is a full-stack application built with:
+
+- React + Vite
+- FastAPI
+- PostgreSQL
+- Docker & Docker Compose
+- Nginx
+
+The application supports user authentication, protected content, and database-backed My Library functionality.
+
+The project is currently being developed and will continue to evolve with additional DevOps practices such as CI/CD, container image management, security improvements, Terraform and Kubernetes deployment.
+
+---
+
+## Author
+
+**Umesh Aveti**  
+DevOps & Cloud Engineer
+
+GitHub: `https://github.com/DevOpsCloudZone`
+
+
 
 
